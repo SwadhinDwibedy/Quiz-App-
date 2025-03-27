@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Original Colors -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Extracted Colors -->
+    <color name="dark_green">#3C513E</color>
+    <color name="deep_forest_green">#3A4F3C</color>
+    <color name="light_grayish_green">#E0E3DC</color>
+    <color name="muted_teal_green">#4F6F58</color>
+    <color name="olive_green">#3A4535</color>
+    <color name="grayish_green">#3F5441</color>
+    <color name="soft_green">#3E5541</color>
+    <color name="dark_moss_green">#3E513E</color>
+    <color name="earthy_green">#394635</color>
+    <color name="deep_olive_green">#3C4F3C</color>
+
+</resources>

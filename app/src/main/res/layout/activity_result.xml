@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result_bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <!-- Result Heading -->
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="RESULT"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Trophy Image (Larger) -->
+    <ImageView
+        android:id="@+id/iv_trophy"
+        android:layout_width="298dp"
+        android:layout_height="253dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="Trophy"
+        android:src="@drawable/ic_trophy" />
+
+    <!-- Congratulations Message -->
+    <TextView
+        android:id="@+id/tv_congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEY, CONGRATULATIONS!"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Username Display -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="USERNAME"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Score Display -->
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="YOUR SCORE IS 0 OUT OF 15"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Finish Button with Rounded Corners -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_finish"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:text="FINISH"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button"/>
+</LinearLayout>
